@@ -12,4 +12,10 @@ func main() {
 
 	fmt.Println(result)
 
+	fmt.Println("Kuis Multiple")
+
+	resultMultiple := calculation.Multiple(5, 5)
+
+	fmt.Println(resultMultiple)
+
 }
