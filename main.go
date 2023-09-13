@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"go-fundamental/calculation"
+	"go-fundamental/condition"
 )
 
 func main() {
@@ -18,4 +19,33 @@ func main() {
 
 	fmt.Println(resultMultiple)
 
+	// IF ELSE CODITION
+	resultIf := condition.IfElse(100)
+	
+	fmt.Println(resultIf)
+
+	// SWITCH CONDITION
+	resultSwitch := condition.Switch(1)
+
+	fmt.Println(resultSwitch)
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 }
