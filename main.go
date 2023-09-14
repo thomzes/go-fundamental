@@ -43,5 +43,38 @@ func main() {
 		fmt.Println("While loop ke;", j)
 		j++
 	}
+	// END WHILE LOOP IN GO (CUSTOM)
+
+	// FOREACH/RANGE IN GO
+	fmt.Println("FOREACH/RANGE IN GO")
+	title := "Golang the best language"
+
+	for index, letter := range title {
+		fmt.Println("index :", index, " letter :", string(letter))
+	}
+	// note = kalo ngga mau pake index, bisa gunain _ (underscore) agar tidak error
+
+	// END FOREACH/RANGE IN GO
+
+	// Kuis Genap Ganjil
+	fmt.Println("Kuis Genap Ganjil")
+
+	titleKuis := "Golang the best language"
+
+	for index, letterKuis := range titleKuis {
+		if index % 2 == 0 {
+			fmt.Println(string(letterKuis))
+		} else {
+			fmt.Println("ganjil")
+		}
+	}
+
+
+
+
+
+
+
+
 
 }
