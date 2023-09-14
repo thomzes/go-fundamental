@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"go-fundamental/array"
 	"go-fundamental/calculation"
 	"go-fundamental/condition"
 )
@@ -53,7 +54,6 @@ func main() {
 		fmt.Println("index :", index, " letter :", string(letter))
 	}
 	// note = kalo ngga mau pake index, bisa gunain _ (underscore) agar tidak error
-
 	// END FOREACH/RANGE IN GO
 
 	// Kuis Genap Ganjil
@@ -68,6 +68,16 @@ func main() {
 			fmt.Println("ganjil")
 		}
 	}
+	// END KUIS GENAP GANJIL
+
+	// Array in Go
+	array.Array()
+
+	// END ARRAY IN GO
+
+
+	
+	
 
 
 
