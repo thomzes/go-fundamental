@@ -9,11 +9,10 @@ func Switch(number int) string {
 	case 1:
 		return "Satu"
 	case 2:
-		return "Satu"
+		return "Dua"
 	case 3:
-		return "Satu"
+		return "Tiga"
 	default:
-		return "Satu"
+		return "Deafult"
 	}
-
 }

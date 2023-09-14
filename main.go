@@ -21,31 +21,27 @@ func main() {
 
 	// IF ELSE CODITION
 	resultIf := condition.IfElse(100)
-	
+
 	fmt.Println(resultIf)
+	// END IF ELSE CONDITION
 
 	// SWITCH CONDITION
 	resultSwitch := condition.Switch(1)
 
 	fmt.Println(resultSwitch)
+	// END SWITCH CONDITION
 
+	// FOR LOOPING
+	for i := 1; i <= 100; i++ {
+		fmt.Println("Looping index ke-", i)
+	}
+	// END FOR LOOPING
+
+	// WHILE LOOP IN GO (CUSTOM)
+	j := 1
+	for j <= 100 {
+		fmt.Println("While loop ke;", j)
+		j++
 	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
 }
